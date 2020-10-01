@@ -1,0 +1,36 @@
+h1, h2 {
+  font-family: 'Oswald';
+  color: DarkBlue;
+}
+
+p {
+  font-family: 'Open Sans';
+  color: DarkBlue;
+  display: inline;
+}
+
+body {
+  margin: 10px 50px 10px 50px;
+  background-color: Ivory;
+}
+
+img {
+  float: left;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.item {
+  float: left;
+  width: 300px;
+}
+
+.column {
+  float: left;
+  width: 300px;
+  padding-left: 10px;
+}
